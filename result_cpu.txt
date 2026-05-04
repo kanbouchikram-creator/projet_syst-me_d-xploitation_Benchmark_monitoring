@@ -1,0 +1,61 @@
+===== BENCHMARK COMPLET =====
+
+===== Méthode : seq =====
+----- MONITORING -----
+ 17:44:57 up  2:45,  1 user,  load average: 0,53, 1,02, 1,00
+               total       utilisé      libre     partagé tamp/cache   disponible
+Mem:           7,7Gi       2,2Gi       3,8Gi        31Mi       1,6Gi       5,5Gi
+Échange:       4,0Gi       507Mi       3,5Gi
+    PID    PPID CMD                         %MEM %CPU
+   2129    1892 /usr/bin/gnome-shell         3.4 13.8
+   7624    7001 /snap/firefox/8054/usr/lib/ 12.1  8.7
+   6804    2129 /snap/firefox/8054/usr/lib/  6.4  8.4
+     75       2 [kswapd0]                    0.0  3.7
+----------------------
+CPU: 99% | RAM: 3620 KB | Temps: 0:05.88
+Mode: seq | Task: cpu | N: 4
+
+===== Méthode : fork =====
+----- MONITORING -----
+ 17:45:02 up  2:45,  1 user,  load average: 0,60, 1,02, 1,00
+               total       utilisé      libre     partagé tamp/cache   disponible
+Mem:           7,7Gi       2,2Gi       3,9Gi        31Mi       1,6Gi       5,5Gi
+Échange:       4,0Gi       507Mi       3,5Gi
+    PID    PPID CMD                         %MEM %CPU
+   2129    1892 /usr/bin/gnome-shell         3.4 13.8
+   7624    7001 /snap/firefox/8054/usr/lib/ 12.1  8.7
+   6804    2129 /snap/firefox/8054/usr/lib/  6.3  8.4
+     75       2 [kswapd0]                    0.0  3.7
+----------------------
+CPU: 380% | RAM: 4104 KB | Temps: 0:08.28
+Mode: fork | Task: cpu | N: 4
+
+===== Méthode : thread =====
+----- MONITORING -----
+ 17:45:11 up  2:45,  1 user,  load average: 0,55, 1,00, 1,00
+               total       utilisé      libre     partagé tamp/cache   disponible
+Mem:           7,7Gi       2,2Gi       3,8Gi        31Mi       1,6Gi       5,5Gi
+Échange:       4,0Gi       507Mi       3,5Gi
+    PID    PPID CMD                         %MEM %CPU
+   2129    1892 /usr/bin/gnome-shell         3.4 13.8
+   7624    7001 /snap/firefox/8054/usr/lib/ 12.1  8.7
+   6804    2129 /snap/firefox/8054/usr/lib/  6.3  8.4
+     75       2 [kswapd0]                    0.0  3.7
+----------------------
+CPU: 345% | RAM: 4076 KB | Temps: 0:11.44
+Mode: thread | Task: cpu | N: 4
+
+===== Méthode : subshell =====
+----- MONITORING -----
+ 17:45:22 up  2:45,  1 user,  load average: 1,32, 1,15, 1,05
+               total       utilisé      libre     partagé tamp/cache   disponible
+Mem:           7,7Gi       2,2Gi       3,9Gi        29Mi       1,6Gi       5,6Gi
+Échange:       4,0Gi       507Mi       3,5Gi
+    PID    PPID CMD                         %MEM %CPU
+   2129    1892 /usr/bin/gnome-shell         3.3 13.8
+   7624    7001 /snap/firefox/8054/usr/lib/ 12.1  8.7
+   6804    2129 /snap/firefox/8054/usr/lib/  6.3  8.4
+     75       2 [kswapd0]                    0.0  3.7
+----------------------
+CPU: 99% | RAM: 3564 KB | Temps: 0:27.37
+Mode: subshell | Task: cpu | N: 4
