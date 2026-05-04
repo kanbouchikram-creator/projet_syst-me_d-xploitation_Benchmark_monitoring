@@ -1,0 +1,17 @@
+2026-05-04 17:45:02 | Mode: seq | Task: cpu | N: 4
+2026-05-04 17:45:11 | Mode: fork | Task: cpu | N: 4
+2026-05-04 17:45:22 | Mode: thread | Task: cpu | N: 4
+2026-05-04 17:45:50 | Mode: subshell | Task: cpu | N: 4
+2026-05-04 17:47:56 | Mode: seq | Task: sleep 2 | N: 4
+2026-05-04 17:47:58 | Mode: fork | Task: sleep 2 | N: 4
+2026-05-04 17:48:00 | Mode: thread | Task: sleep 2 | N: 4
+2026-05-04 17:48:08 | Mode: subshell | Task: sleep 2 | N: 4
+2026-05-04 17:48:34 | Mode: seq | Task: io | N: 4
+2026-05-04 17:48:34 | Mode: fork | Task: io | N: 4
+2026-05-04 17:48:34 | Mode: thread | Task: io | N: 4
+2026-05-04 17:48:34 | Mode: subshell | Task: io | N: 4
+
+2026-05-04 17:53:43 | Mode: seq | Task: io | N: 4
+2026-05-04 17:53:43 | Mode: fork | Task: io | N: 4
+2026-05-04 17:53:43 | Mode: thread | Task: io | N: 4
+2026-05-04 17:53:43 | Mode: subshell | Task: io | N: 4
